@@ -1,3 +1,3 @@
-Cy
+Cy wechat admin system
 ==
-The first framework for me.
+Admin system for wechat using my MVC framework!
