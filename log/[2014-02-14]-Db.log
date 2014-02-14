@@ -1,0 +1,17 @@
+[2014-02-14 09:27:52]  FATAL: No such file /www/wechat/controller/favicon.ico.php been found! <b>ErrorCode:</b> ErrorCode: 1001 in /www/wechat/Cy/Loader/Loader.php on 23 \n\r #0 /www/wechat/Cy/Loader/Loader.php(34): Cy\Loader\Loader::loadClass('controller\favi...')
+#1 [internal function]: Cy\Loader\Loader::autoLoad('controller\favi...')
+#2 [internal function]: spl_autoload_call('controller\favi...')
+#3 /www/wechat/Cy/Mvc/Router.php(41): class_exists('controller\favi...')
+#4 [internal function]: Cy\Mvc\Router->dispatch()
+#5 /www/wechat/Cy/Di/Di.php(36): call_user_func_array(Array, Array)
+#6 /www/wechat/Cy/Mvc/Response.php(14): Cy\Di\Di->detach()
+#7 /www/wechat/Cy/Mvc/EventsManager.php(61): Cy\Mvc\Response->__construct(Object(Cy\Mvc\Router))
+#8 /www/wechat/index.php(24): Cy\Mvc\EventsManager::run()
+#9 {main} 
+[2014-02-14 09:27:52]  FATAL: No found such class has been requested! ErrorCode: 1001 in /www/wechat/Cy/Mvc/Router.php on 56 \n\r #0 /www/wechat/Cy/Mvc/Router.php(42): Cy\Mvc\Router->error('No found such c...', 1001, true, 1)
+#1 [internal function]: Cy\Mvc\Router->dispatch()
+#2 /www/wechat/Cy/Di/Di.php(36): call_user_func_array(Array, Array)
+#3 /www/wechat/Cy/Mvc/Response.php(14): Cy\Di\Di->detach()
+#4 /www/wechat/Cy/Mvc/EventsManager.php(61): Cy\Mvc\Response->__construct(Object(Cy\Mvc\Router))
+#5 /www/wechat/index.php(24): Cy\Mvc\EventsManager::run()
+#6 {main} 
